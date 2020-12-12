@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+.wrapper {
+	width: 480px;
+	margin: 0 auto;
+}
+input {
+	padding: 10px;
+}
+input[type=text]{
+	width: 82.7%;
+	padding: 10px;
+}
+select {
+	padding: 10px;
+}
+input[type=submit] {
+	width: 100%;
+	margin-top: 5px;
+}
+form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 786px) {
+	.wrapper {
+		width: 360px;
+	}
+	input[type=text]{
+		width: 75.5%;
+	}
+}
